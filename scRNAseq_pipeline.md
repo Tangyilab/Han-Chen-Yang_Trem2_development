@@ -83,7 +83,7 @@ total_flited <- subset(
   subset =
     nFeature_RNA > 300 &
     nCount_RNA   > 1000 &
-    nCount_RNA   < 10000 &
+    nCount_RNA   < 60000 &
     percent.mt   < 10 &
     cell_probability > 0.5 &
     percent.hb   < 0.1 &
